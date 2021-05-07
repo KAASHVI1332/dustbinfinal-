@@ -31,6 +31,7 @@ paper=new Paper(200,450,70);
 }
 
 
+ function keyPressed() { if (keyCode === UP_ARROW) { Matter.Body.applyForce(paper.body,paper.body.position,{x:130,y:-145}); } }
 
 function draw() {
   rectMode(CENTER);

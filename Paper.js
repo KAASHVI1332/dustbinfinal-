@@ -25,7 +25,7 @@ class Paper
 			translate(PaperPos.x, PaperPos.y);
             rectMode(CENTER);
        fill("black");     
-       ImageMode(CENTER);
+       imageMode(CENTER);
            image(this.image,0,0,this.r,this.r);
 			pop()
 			
